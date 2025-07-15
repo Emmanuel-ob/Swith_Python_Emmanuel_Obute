@@ -1,6 +1,6 @@
 import os
 
-dirName = 'C:\Users\Uche\Desktop\PythonDemos'
+dirName = 'C:\Users\some\directory'
 
 def directory_access(folderDirectory):
     for path, subdirs, files in os.walk(folderDirectory):
